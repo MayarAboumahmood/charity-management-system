@@ -1,0 +1,53 @@
+class ServerConfig {
+  static const domainNameServer = 'http://192.168.63.5:8000';
+  String loginApi = '/api/admin/login';
+  String loginApiuser = '/api/user/login';
+  static const registerApi = '/api/user/register';
+  String getStudyZonesApi = '/api/admin/zones';
+  String getStudyZonesApiuser = '/api/user/zones';
+  String getChallengeApi = '/api/admin/challenges';
+  String getChallengeApiuser = '/api/user/challenges';
+  static const getStatisticApi = '/api/admin/Statistic';
+  String getScolarShipApi = '/api/admin/scolarships';
+  String getScolarShipApiuser = '/api/user/scolarships';
+  String getJobApi = '/api/admin/jobs';
+  String getJobApiuser = '/api/user/jobs';
+  static const addBeneficiaryApi = '/api/admin/beneficiary';
+  static const addTrainingsApi = '/api/admin/trainings';
+  static const addScolarshipApi = '/api/admin/scolarships';
+  static const addWorkApi = '/api/admin/jobs';
+  static const addChallengeApi = '/api/admin/challenges';
+  String getWarrentlyApi = '/api/admin/requests';
+  String getWarrentlyApiuser = '/api/user/requests';
+  static const getUserProfileApi = '/api/user?????????????????';
+  static const getNotificationApi = '/api/admin/Notification';
+  static const applyScolarShipApi = '/api/user/applicants';
+  static const applyWarrentyApi = '/api/user/requests';
+  static const editStudyApi = '/api/admin/zones/update/';
+  static const EditBeneficiaryApi = '/api/admin/beneficiary/update/';
+  String getBeneficiaryApi = '/api/admin/beneficiary';
+  String getBeneficiaryCountApi = '/api/admin/beneficiary/count';
+  String getBeneficiaryCountApiuser = '/api/user/beneficiary/count';
+  String getChallengesCountApi = '/api/admin/challenges/count';
+  String getChallengesCountApiuser = '/api/user/challenges/count';
+  String getWarrentlyCountApi =
+      'api/admin/getWarrentlyCountApi??????????????????????';
+  String getWarrentlyCountApiuser =
+      'api/user/getWarrentlyCountApi??????????????????????';
+  static const donationApi = "/api/user/donationApi";
+  static const getStudyZonesCountApi = '/api/admin/zones/count';
+  static const getStudyZonesCountApiuser = '/api/user/zones/count';
+  static const getdonaterCountApi = '/api/admin/challs';
+  static const getdonaterCountApiuser = '/api/user/challs';
+  static const getcharityProfileApi = '/api/admin/charity';
+  static const getcharityProfileApiuser = '/api/user/charity';
+  static const gettriningeApi = '/api/admin/trainings';
+  static const gettriningeApiuser = '/api/user/trainings';
+  static const addStudyZoneApi = '/api/admin/zones';
+  static const addStudyZoneApiuser = '/api/user/zones';
+  static const logoutApi = '/api/admin/logout';
+  static const logoutApiuser = '/api/user/logout';
+  static const getChallengeDateApi = '/api/user/challenges/date';
+  static const editTraining = '/api/admin/trainings/update/';
+  static const addWarrentlyApi = '/api/admin/Warrently/';
+}
